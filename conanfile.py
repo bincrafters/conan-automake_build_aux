@@ -8,7 +8,6 @@ class AutoMakeBuildAuxConan(ConanFile):
     license = "GPL-3.0-only"
     url = "https://github.com/bincrafters/conan-automake_build_aux"
     homepage = "https://www.gnu.org/software/automake/"
-    author = "Bincrafters <bincrafters@gmail.com>"
     description = "auxiliary build files from automake distribution: compiler and ar-lib"
     no_copy_source = True
     exports = ["LICENSE.md"]
